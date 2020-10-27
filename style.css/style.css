@@ -1,0 +1,157 @@
+body {
+background-color: white;
+color: black;
+line-height: 1.5;
+ 	text-align: center;
+ 	font-family: 'Montserrat', sans-serif;
+ 	
+}
+
+
+ h1 { color: #941a1ac7;
+font-family: 'Roboto', sans-serif;
+text-align: center;
+font-size: 30px;
+  }
+
+ h2 {color: hsl(0, 60%, 50%);
+ 	font-family: 'Roboto', sans-serif;
+ 	text-align: center;
+ 	text-transform: uppercase;
+ 	font-weight: bold;
+ 	font-size: 18px;
+ }
+
+
+ h3 {color: #8c5f5f;
+ 	font-family: Trebuchet MS, serif;
+ 	font-size: 20px;
+ 	text-align: center;
+ 	text-transform: uppercase;
+ }
+
+ .beige-div { 
+background: #e8e0cc;
+    padding: 10px;
+    margin: 40px auto;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 730px;
+  }
+
+@media (max-width: 500px) {
+
+.beige-div { 
+width: 400px; }
+
+}
+
+@media (max-width: 760px) {
+
+.beige-div { 
+width: 600px; }
+
+}
+
+ a {font-weight: bold;
+ 	text-decoration: none;
+ 	color: grey;
+ 	text-align: center;
+ 	font-family: Trebuchet MS, serif;
+ 	font-size: 40px;
+ 	justify-content: space-between;
+}
+ .button {
+  background-color: #941a1ac7;
+  border: none;
+  color: #eee;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 40px;
+  box-shadow: 2px 2px 1px grey;
+
+}
+
+ a:hover {
+ 	color: white;
+ 	background-color: #ff414d;
+
+ }
+ img {
+ 	image: center;
+ 	box-shadow: 3px 2px 1px grey;
+ 	justify-content: space-between;
+ 	display: inline-block;
+
+}
+ .img-circle {
+ 	border-radius: 100%; 
+ 	-webkit-border-radius:80px;
+    -moz-border-radius:80px;
+    border-radius:100px;
+    
+
+ } 
+
+.shadowed { 
+box-shadow: 3px 2px 1px grey;
+
+  }
+
+
+  p { 
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+padding-right: 90px;
+padding-left: 90px;
+
+   }
+
+ ul {
+list-style-type: none;
+
+ }
+
+ li {
+ 	margin-left: 2px;
+ 	vertical-align: middle;
+ 	display: inline-block;
+ }
+
+ .social-links{
+display: flex;
+justify-content: center;
+color: white;
+padding-inline-start: 0px;
+ }
+
+.social-links li {
+	padding-left: 0px;
+	padding: 10px;
+	justify-content: center;
+}
+
+.image-container {
+justify-content: center;
+margin-bottom: 20px;
+padding: 10px;
+}
+
+#para-grey {
+text-align: justify;
+}
+
+#first-div {
+	padding-bottom: 20px;
+}
+
+#img-circle {
+	border-radius: 37%;
+	border:2px grey;
+	box-shadow: 0px;
+}
